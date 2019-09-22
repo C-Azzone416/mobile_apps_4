@@ -38,9 +38,8 @@
                 android:id="@+id/product_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/shr_product_description"
-                android:textAppearance="?attr/textAppearanceBody2"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                style="@style/TextAppearance.Shrine.SecondaryText"/>
         </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

@@ -1,9 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
 
-    <!-- TODO 16: Set "dosis" font as the default fontFamily of the app -->
-    <!-- TODO 17: Use "convergence" font for Toolbar title, Button and TextButton. Remember using bold style -->
-    <!-- TODO 18: Define custom style for the product name label in catalog's cards. -->
     <!-- TODO 19: Create and apply a new color theme to the application -->
     <style name="Theme.Shrine" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -11,7 +8,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
-
+        <item name="android:fontFamily">@font/dosis</item>
     </style>
 
 
@@ -19,6 +16,7 @@
         <item name="textAllCaps">true</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
+
     </style>
 
     <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
@@ -42,15 +40,21 @@
 
     <style name="TextAppearance.Shrine.Toolbar" parent="TextAppearance.MaterialComponents.Button">
         <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/convergence</item>
     </style>
 
     <style name="Widget.Shrine.Button" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">@color/textColorPrimary</item>
         <item name="backgroundTint">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/convergence</item>
     </style>
 
     <style name="Widget.Shrine.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
         <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/convergence</item>
     </style>
 
+    <style name="TextAppearance.Shrine.SecondaryText" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/dosis</item>
+    </style>
 </resources>

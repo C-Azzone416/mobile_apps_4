@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- TODO 16: Apply new defined typeface to login screen title -->
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -29,13 +29,14 @@
         />
 
         <TextView
+            style="@style/TextAppearance.Shrine.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="132dp"
+            android:fontFamily="@font/dosis"
             android:text="@string/shr_app_name"
-            android:tint="@color/textColorPrimary"
-            style="@style/TextAppearance.Shrine.Title" />
+            android:tint="@color/textColorPrimary" />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.Shrine.TextInputLayout"
